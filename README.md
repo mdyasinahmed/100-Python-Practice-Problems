@@ -155,23 +155,3 @@ This repository contains a variety of Python practice problems suitable for begi
 87. **Recursive Factorial Function**: Write a function that accepts a number and returns its factorial. You cannot use any loop.
 
 Happy coding! 🎉
-
-<br><br>
-
-## Tags
-
-- python
-- python-exercises
-- coding-challenges
-- practice-problems
-- programming-exercises
-- beginner-python
-- python-tutorial
-- learning-python
-- python-practice
-- python-coding
-- python-for-beginners
-- python-projects
-- python-problems
-- python-programming
-- code-exercises
