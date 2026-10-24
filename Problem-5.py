@@ -1,10 +1,23 @@
-# Write a program that will reverse a four digit number.Also it checks whether the reverse is true.
+#Here is a program to check whether a number is a palindrome or not.
 
-number = int(input('Enter a Four Digit Number: '))
+# Reverse a four-digit number and check whether it is a palindrome.
 
-reversedNumber = int(str(number)[::-1])
+number = int(input("Enter a four-digit number: "))
 
-if number==reversedNumber :
-    print('Your Given Number is Palindrome!')
-else :
-    print('Your Given Number is Not Palindrome!')
+if 1000 <= number <= 9999:
+    original = number
+    reversed_number = 0
+
+    while number > 0:
+        digit = number % 10
+        reversed_number = reversed_number * 10 + digit
+        number //= 10
+
+    print("Reversed number:", reversed_number)
+
+    if original == reversed_number:
+        print("Your given number is a palindrome!")
+    else:
+        print("Your given number is not a palindrome!")
+else:
+    print("Please enter a valid four-digit number.")
